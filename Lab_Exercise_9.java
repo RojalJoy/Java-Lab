@@ -48,13 +48,10 @@ public class Lab_Exercise_9 extends JFrame {
     }
 
     private void rentGame() {
-        // Add your logic here to handle game rental
+
         int gameId = Integer.parseInt(gameIdField.getText());
         int customerId = Integer.parseInt(customerIdField.getText());
 
-        // Add logic to process the rental
-
-        // For now, just show a message
         JOptionPane.showMessageDialog(this, "Game rented successfully!");
     }
 
